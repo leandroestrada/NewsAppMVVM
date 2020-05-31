@@ -15,20 +15,21 @@ class Webservice{
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             
-            if let error = error{
+            if let error = error {
                 print(error.localizedDescription)
                 completion(nil)
-            }else if let data = data{
+            } else if let data = data {
                 
                 let articleList = try? JSONDecoder().decode(ArticleList.self, from: data)
                 
-                if let articleList = articleList{
+                if let articleList = articleList {
                     completion(articleList.articles)
                 }
                 
-                print(articleList?.articles as Any)
+                print(articleList?.articles)
                 
             }
+    
             
         }.resume()
         
