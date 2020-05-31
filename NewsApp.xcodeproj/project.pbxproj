@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AC54132484057000EE7FA4 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AC54122484057000EE7FA4 /* ArticleViewModel.swift */; };
 		30B545AA241A703200341D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B545A9241A703200341D94 /* AppDelegate.swift */; };
 		30B545AC241A703200341D94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B545AB241A703200341D94 /* SceneDelegate.swift */; };
 		30B545B1241A703200341D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B545AF241A703200341D94 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30AC54122484057000EE7FA4 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		30B545A6241A703200341D94 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B545A9241A703200341D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B545AB241A703200341D94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30AC54112484055A00EE7FA4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				30AC54122484057000EE7FA4 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		30B5459D241A703200341D94 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		30B545A8241A703200341D94 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				30AC54112484055A00EE7FA4 /* View Models */,
 				30B545C4241ABED600341D94 /* Model */,
 				30B545C1241A824200341D94 /* Services */,
 				30B545BD241A706000341D94 /* Controllers */,
@@ -171,6 +182,7 @@
 				30B545AA241A703200341D94 /* AppDelegate.swift in Sources */,
 				30B545C0241A709100341D94 /* NewsListTableViewController.swift in Sources */,
 				30B545C3241AA4A600341D94 /* Webservice.swift in Sources */,
+				30AC54132484057000EE7FA4 /* ArticleViewModel.swift in Sources */,
 				30B545AC241A703200341D94 /* SceneDelegate.swift in Sources */,
 				30B545C6241ABEE200341D94 /* Article.swift in Sources */,
 			);
